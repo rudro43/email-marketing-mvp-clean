@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/api": "^6.12.0",
+    "@bull-board/express": "^6.12.0",
+    "axios": "^1.10.0",
+    "bullmq": "^5.56.9",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8",
+    "html-docx-js": "^0.3.1",
+    "ioredis": "^5.7.0",
+    "jsdom": "^26.1.0",
+    "mongoose": "^8.16.4",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.5",
+    "oauth": "^0.10.2",
+    "openai": "^5.10.2",
+    "p-limit": "^6.2.0",
+    "passport": "^0.7.0",
+    "passport-azure-ad": "^4.3.5",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
