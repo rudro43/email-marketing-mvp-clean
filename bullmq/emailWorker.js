@@ -1,4 +1,4 @@
-const { Worker } = require('bullmq');
+/*const { Worker } = require('bullmq');
 const connection = require('./connection');
 const { sendOutlookEmail } = require('../services/outlookMailer');
 
@@ -27,5 +27,5 @@ worker.on('completed', (job) => {
 });
 
 worker.on('failed', (job, err) => {
-  console.error(`❌ Email to ${job.data.to} failed:`, err.response?.data || err.message);
+  console.error(`❌ Email to ${job.data.to} failed:`, err.response?.data || err.message);*/
 });
