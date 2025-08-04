@@ -1,4 +1,4 @@
-const emailQueue = require('../bullmq/emailQueue'); // Make sure this path is correct
+//const emailQueue = require('../bullmq/emailQueue'); // Make sure this path is correct
 // File: backend/controllers/emailController.js
 const Customer = require('../models/customer');
 const Campaign = require('../models/Campaign');
