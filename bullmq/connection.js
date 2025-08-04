@@ -1,4 +1,4 @@
-const Redis = require('ioredis');
+/*const Redis = require('ioredis');
 
 const redis = new Redis({
   host: '127.0.0.1',
@@ -6,4 +6,4 @@ const redis = new Redis({
   maxRetriesPerRequest: null, // ✅ Required by BullMQ
 });
 
-module.exports = redis;
+module.exports = redis;*/
